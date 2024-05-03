@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Main_activity_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_search"
+        android:background="@drawable/background_button"
+        android:textColorHint="@color/white"
+        android:padding="15dp"
+        android:layout_margin="10dp"/>
+
+    <View
+      style="@style/ContainerComponents"
+        android:id="@+id/containerComponents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Button"
+
+        />
+
+
+    <EditText
+        android:id="@+id/Main_activity_Gabriel"
+        style="@style/edit_text"
+        android:text="   Gabriel"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+
+    <EditText
+    android:id="@+id/Main_activity_Julia"
+    style="@style/edit_text"
+    android:text="  Julia"
+    android:textColor="@color/white"
+    android:drawableLeft="@mipmap/ic_icon2"
+    app:layout_constraintStart_toStartOf="@id/containerComponents"
+    app:layout_constraintEnd_toEndOf="@id/containerComponents"
+    app:layout_constraintTop_toBottomOf="@id/Main_activity_Gabriel" />
+
+
+    <EditText
+        android:id="@+id/Main_activity_Paula"
+        style="@style/edit_text"
+        android:text="  Paula"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon3"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Julia" />
+
+
+    <EditText
+        android:id="@+id/Main_activity_Fernanda"
+        style="@style/edit_text"
+        android:text="  Fernanda"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon4"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Paula" />
+
+    <EditText
+        android:id="@+id/Main_activity_Julio"
+        style="@style/edit_text"
+        android:text="  Julio"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon5"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Fernanda" />
+
+    <EditText
+        android:id="@+id/Main_activity_Enzo"
+        style="@style/edit_text"
+        android:text="  Enzo"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon6"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Julio" />
+
+    <EditText
+        android:id="@+id/Main_activity_Diego"
+        style="@style/edit_text"
+        android:text="  Diego"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon7"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Enzo" />
+
+    <EditText
+        android:id="@+id/Main_activity_Janete"
+        style="@style/edit_text"
+        android:text="  Janete"
+        android:textColor="@color/white"
+        android:drawableLeft="@mipmap/ic_icon8"
+        app:layout_constraintStart_toStartOf="@id/containerComponents"
+        app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        app:layout_constraintTop_toBottomOf="@id/Main_activity_Diego" />
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
